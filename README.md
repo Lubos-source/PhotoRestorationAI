@@ -1,5 +1,7 @@
 # Implement AI for Photo Restoration to Google Colaboratory.
 
+### [AI to use](https://github.com/sczhou/CodeFormer)
+
 ### TO DO:
 + setup functional environment in *.ipynb --> good to use *Google Colaboratory* 
 + install requirements

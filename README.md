@@ -15,14 +15,14 @@
 + make detail commented steps and documentation ✅
 + make easy to use user interface for using AI ✅
 
-
+<br/>
 ### TESTED + results:
-Whole Image Restoration - good working ✅
-Face Restoration - good working ✅
-Face Colorization - so, so working ✅
-Face Inpainting - not working ❌
-Video Enhancement - ⚙️
-
++ Whole Image Restoration - good working ✅
++ Face Restoration - good working ✅
++ Face Colorization - so, so working ✅
++ Face Inpainting - not working ❌
++ Video Enhancement - ⚙️
+<br/>
 
 ### DEAD LINE 11.12.23
 

@@ -23,7 +23,7 @@
 + Face Colorization - so, so working ✅
 + Face Inpainting - not working ❌
 + Video Enhancement - ⚙️
-+ 
+
 <br/>
 
 ### DEAD LINE 11.12.23

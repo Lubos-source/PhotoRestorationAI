@@ -29,4 +29,4 @@
 ### DEAD LINE 11.12.23
 
 
-## [First *GC* version v0.0.1](https://colab.research.google.com/drive/1WisSZXsucyjeu1ltIcMIcWg3Bi8dEJSw)
+## [ *GC* version v0.1.1](https://colab.research.google.com/drive/1WisSZXsucyjeu1ltIcMIcWg3Bi8dEJSw)

@@ -22,6 +22,7 @@
 + Face Restoration - good working ✅
 + Face Colorization - so, so working ✅
 + Face Inpainting - not working ❌ - scamed?
++ AI face repair - good working ✅
 + Video Enhancement - ✅
 
 <br/>

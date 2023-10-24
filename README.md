@@ -21,12 +21,12 @@
 + Whole Image Restoration - good working ✅
 + Face Restoration - good working ✅
 + Face Colorization - so, so working ✅
-+ Face Inpainting - not working ❌
-+ Video Enhancement - ⚙️
++ Face Inpainting - not working ❌ - scamed?
++ Video Enhancement - ✅
 
 <br/>
 
 ### DEAD LINE 11.12.23
 
 
-## [ *GC* version v0.1.1](https://colab.research.google.com/drive/1WisSZXsucyjeu1ltIcMIcWg3Bi8dEJSw)
+## [ *GC* version v0.1.2](https://colab.research.google.com/drive/1WisSZXsucyjeu1ltIcMIcWg3Bi8dEJSw)

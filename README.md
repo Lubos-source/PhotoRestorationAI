@@ -14,6 +14,7 @@
 + test if program is working ✅
 + make detail commented steps and documentation ✅
 + make easy to use user interface for using AI ✅
++ try to train model ? --> new colab (to not break working proof)
 
 <br/>
 

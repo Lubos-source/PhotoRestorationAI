@@ -41,14 +41,45 @@ Copied whitespace and created new white line:
 On the original image. Added copied whitespace:
 ![PSProof2](./img/PHOTOSHOPproof2.png)
 
-Not working -> final "repaired" image dont fill these white lines, it fill just the original ones.
+Not working -> final "repaired" image dont fill these white lines, it fill just the original ones. It can be caused by used Photoshop version.
 
 ### Comparison
 
-Comparison of existing Photo Restoration AIs (from documentation):
+All in One Comparison of existing Photo Restoration AIs (from documentation):
 ![Comparison](./img/compre.jpg)
+
+LQ - HQ Comparison:
+![Comparison](./img/morecompr.png)
+
+Colorization
+![Comparison](./img/morecompcolor.png)
+
+Finall full old Photo:
+![Comparison](./img/comprOldPhoto.png)
+
+AI fix face:
+![Comparison](./img/aiFix.png)
 
 ### Used algorithm 
 
 Used Algorith -> from documentation:
 ![algorithm](./img/algorithm.jpg)
+
+
+### Points:
+#### LQ - HQ
+- vector quantization --> quantized autoencoder --> create a codebook and coresponding decoder
+- for face restoration we use priority of combination from codebook with decoder
+- *face is stored as compressed and every pixel is replaced with nearest pixel from trained codebook*
+- Decoder (Dh) then reconstructs face to High Quality image defined with sequence of choosen pixels
+- coder (Eh) and decoder (Dh) consist of 12 blocks and 5 resize layers -> this give us a large compession ratio, which leads to great robustness against defradation
+- N (number of items in codebook) is set to 1024, which is best before model starts degrading.
+- Very Low quality textures leads to failure of finding neares neighbour pixel -> so we use `Transformer` to model a global better code prediction.
+- used training dataset is FFHQ dataset (70,000 High quality images) -> we degradate their quality and pair them.
+- testing datasets : `LFW-Test`(low degradated (1,711) imgs), `WebPhoto-Test`(medium degradated (407) imgs) and `WIDER-Test` (heavy degradated (970) imgs)
+- Settings: `512x512x3` face images, optimizer `Adam`, iterations: Stage I = `1,5M` Stage II = `200K` and Stage III = `20K`, used Pytorch framework using *NVIDIA Tesla V100 GPU*.
+#### Colorization
+- random color jitter and grayscale conversion used as in GFP-GAN (v1) AI 
+
+#### Limitation
+- less effective to restore side faces (bcs datasets contain less this kinds of images)

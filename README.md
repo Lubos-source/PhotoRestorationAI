@@ -31,4 +31,20 @@
 ### DEAD LINE 11.12.23
 
 
-## [ *GC* version v1.0.1](https://colab.research.google.com/drive/1WisSZXsucyjeu1ltIcMIcWg3Bi8dEJSw)
+## [ *GC* version v1.2.1](https://drive.google.com/file/d/1YqDCJ2802Gi_7sm2TykyJ0Q8EE_sE2Ym/view?usp=sharing)
+
+### Proof of not working Face Inpainting:
+
+Copied whitespace and created new white line:
+![PSProof1](./img/PHOTOSHOPproof.png)
+
+On the original image. Added copied whitespace:
+![PSProof2](./img/PHOTOSHOPproof2.png)
+
+Not working -> final "repaired" image dont fill these white lines, it fill just the original ones.
+
+Comparison of existing Photo Restoration AIs (from documentation):
+![Comparison](./img/compre.jpg)
+
+Used Algorith -> from documentation:
+![algorithm](./img/algorithm.jpg)

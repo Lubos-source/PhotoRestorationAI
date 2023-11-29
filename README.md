@@ -43,8 +43,12 @@ On the original image. Added copied whitespace:
 
 Not working -> final "repaired" image dont fill these white lines, it fill just the original ones.
 
+### Comparison
+
 Comparison of existing Photo Restoration AIs (from documentation):
 ![Comparison](./img/compre.jpg)
+
+### Used algorithm 
 
 Used Algorith -> from documentation:
 ![algorithm](./img/algorithm.jpg)

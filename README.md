@@ -45,26 +45,31 @@ Not working -> final "repaired" image dont fill these white lines, it fill just 
 
 ### Comparison
 
-All in One Comparison of existing Photo Restoration AIs (from documentation):
+All in One Comparison of existing Photo Restoration AIs (from documentation): <br/>
 ![Comparison](./img/compre.jpg)
+<br/>
 
-LQ - HQ Comparison:
+LQ - HQ Comparison: <br/>
 ![Comparison](./img/morecompr.png)
+<br/>
 
-Colorization
+Colorization: <br/>
 ![Comparison](./img/morecompcolor.png)
+<br/>
 
-Finall full old Photo:
+Finall full old Photo:<br/>
 ![Comparison](./img/comprOldPhoto.png)
+<br/>
 
-AI fix face:
+AI fix face:<br/>
 ![Comparison](./img/aiFix.png)
+<br/>
 
 ### Used algorithm 
 
-Used Algorith -> from documentation:
+Used Algorith -> from documentation: <br/>
 ![algorithm](./img/algorithm.jpg)
-
+<br/>
 
 ### Points:
 #### LQ - HQ
